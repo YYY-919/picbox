@@ -119,7 +119,7 @@ function view() {
 async function initgallery() {
     document.getElementById(
         'description'
-    ).innerHTML = `NoneBot 群大佬们的日常，目前已有 ${items.length} 张。`
+    ).innerHTML = `简简单单的图片收集，目前已有 ${items.length} 张。`
     document.getElementById('refresh-btn').onclick = () => {
         location.hash = `#${
             items[random(items.length - 1, 0)].match(
