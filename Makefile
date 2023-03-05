@@ -4,13 +4,13 @@ PAGELANG?=zh
 
 TITLE?=PicBox
 DESC?=♂DO YOU LIKE VAN YOU SEE ?♂
-FOOTER?=** Footer **
+FOOTER?= ---没了---
 
 ifeq (${PAGELANG}, zh)
-T_MEMEPIC?=图片梗
-T_MEMETXT?=文字梗
+T_MEMEPIC?=图片
+T_MEMETXT?=文字
 T_DOWNLOAD?=下载图片
-T_ANOTHER?=梗图不喜欢？换一张试试看
+T_ANOTHER?=图片不喜欢？换一张试试看
 T_BACK?=返回画廊
 T_ZOOMIN?=查看大图
 endif
