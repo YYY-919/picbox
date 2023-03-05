@@ -12,7 +12,7 @@ T_MEMETXT?=文字
 T_DOWNLOAD?=下载图片
 T_ANOTHER?=图片不喜欢？换一张试试看
 T_BACK?=返回画廊
-T_ZOOMIN?=查看大图
+T_ZOOMIN?=若无图，点击右边刷新按钮
 endif
 
 T_MEMEPIC?=Picture memes
