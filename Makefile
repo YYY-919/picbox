@@ -1,9 +1,9 @@
 # memebox generating
 
-PAGELANG?=en
+PAGELANG?=zh
 
-TITLE?=MemeBox
-DESC?=Joy for Everyone
+TITLE?=PicBox
+DESC?=♂DO YOU LIKE VAN YOU SEE ?♂
 FOOTER?=** Footer **
 
 ifeq (${PAGELANG}, zh)
