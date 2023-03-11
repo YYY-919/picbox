@@ -19,7 +19,6 @@ echo "Generating article directory..."
 cat > "text/index.html" <<EOF
 <!DOCTYPE html>
 <html lang="@PAGELANG@">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,15 +34,13 @@ cat > "text/index.html" <<EOF
         }
     </style>
 </head>
-
 <body>
     <main class="container">
         <h1>@TITLE@ | <a href="/">@T_MEMEPIC@</a></h1>
         <h5 id="description"></h5>
         <article id="view">
             <github-md>
-> _Text memes description._
-
+@TDESC@
 EOF
 
 for doc in art/*.md
@@ -57,13 +54,11 @@ done
 cat >> "text/index.html" <<EOF
             </github-md>
         </article>
-
         <footer id="footer">
             <p>@FOOTER@</p>
         </footer>
     </main>
 </body>
 <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
-
 </html>
 EOF
