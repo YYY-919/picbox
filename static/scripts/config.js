@@ -91,6 +91,7 @@ export default {
     "meme/照坤镜.webp",
     "meme/评价是6.webp",
     "meme/这就是骚鸡的下场.webp",
+    "meme/香贝凤蚝食不食.webp",
     "meme/鸡你太美小吃.webp"
   ]
 }
