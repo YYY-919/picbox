@@ -87,6 +87,7 @@ export default {
     "meme/fdd82a9f75681f2adb7c151e0e397b664465f328.png",
     "meme/ffe075ac3c3973ed65a22ece7d9281fe02ffb0f1.png",
     "meme/有意思.webp",
+    "meme/照坤镜.webp",
     "meme/评价是6.webp"
   ]
 }
