@@ -18,14 +18,14 @@ echo "Generating article directory..."
 
 cat > "text/index.html" <<EOF
 <!DOCTYPE html>
-<html lang="@PAGELANG@">
+<html lang="zh">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="@DESC@">
+    <meta name="description" content="♂DO YOU LIKE VAN YOU SEE ?♂">
     <link rel="icon" href="/static/favicon.ico">
-    <title>@TITLE@ | @DESC@</title>
+    <title>ArticleBox | HAVE A LOOK</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.0/css/pico.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <style>
@@ -36,11 +36,11 @@ cat > "text/index.html" <<EOF
 </head>
 <body>
     <main class="container">
-        <h1>@TITLE@ | <a href="/">@T_MEMEPIC@</a></h1>
+        <h1>ArticleBox | <a href="/">图片</a></h1>
         <h5 id="description"></h5>
         <article id="view">
             <github-md>
-@TDESC@
+# 一些文本
 EOF
 
 for doc in art/*.md
@@ -55,7 +55,7 @@ cat >> "text/index.html" <<EOF
             </github-md>
         </article>
         <footer id="footer">
-            <p>@FOOTER@</p>
+            <p>————————————没了————————————</p>
         </footer>
     </main>
 </body>
