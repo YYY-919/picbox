@@ -4,7 +4,7 @@ PAGELANG?=zh
 
 TITLE?=PicBox
 DESC?=♂DO YOU LIKE VAN YOU SEE ?♂
-FOOTER?= ——————没了——————
+FOOTER?=————————————没了————————————
 
 ifeq (${PAGELANG}, zh)
 T_MEMEPIC?=图片
