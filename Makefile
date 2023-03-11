@@ -4,7 +4,7 @@ PAGELANG?=zh
 
 TITLE?=PicBox
 DESC?=♂DO YOU LIKE VAN YOU SEE ?♂
-FOOTER?= ---没了---
+FOOTER?= ——————没了——————
 
 ifeq (${PAGELANG}, zh)
 T_MEMEPIC?=图片
@@ -23,13 +23,14 @@ T_BACK?=Back to gallery
 T_ZOOMIN?=Zoom in
 
 
-.PHONY: clean icon
+.PHONY: clean icon copyandstub fixshperm
 
-all: shell static .github index.html icon
+all: copyandstub shell/genartlist.sh shell/art2text.sh index.html icon fixshperm
 
 index.html shell/genartlist.sh shell/art2text.sh: %: src/%.in
 	sed 's%@TITLE@%${TITLE}%g' $^ \
 		| sed 's%@DESC@%${DESC}%g' \
+		| sed 's%@TDESC@%${TDESC}%g' \
 		| sed 's%@FOOTER@%${FOOTER}%g' \
 		| sed 's%@PAGELANG@%${PAGELANG}%g' \
 		| sed 's%@T_MEMEPIC@%${T_MEMEPIC}%g' \
@@ -39,6 +40,9 @@ index.html shell/genartlist.sh shell/art2text.sh: %: src/%.in
 		| sed 's%@T_BACK@%${T_BACK}%g' \
 		| sed 's%@T_ZOOMIN@%${T_ZOOMIN}%g' > $@
 
+fixshperm: shell/genartlist.sh shell/art2text.sh
+	chmod +x $^
+
 icon:
 	@echo
 	@echo "*** Two icon files are used:"
@@ -46,7 +50,7 @@ icon:
 	@echo "***     - static/favicon.png"
 	@echo "*** Please put your icons to the right place."
 
-shell static .github:
+copyandstub:
 	mkdir -pv shell static/data/images
 	touch static/data/.gitkeep static/data/images/.gitkeep
 	cp -rf src/.github src/static .
