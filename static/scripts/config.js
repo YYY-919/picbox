@@ -14,7 +14,6 @@ export default {
     "meme/280476b10392259e71212e1e7d819512727cad34.png",
     "meme/2a2b1a36943883f8a85d227fba5fe1e4236a003e.png",
     "meme/2a68ff31d2eac1a22d92e5d96869765f054c5d69.png",
-    "meme/33e1615c6cebfe736119c84fdd3f295691f9b1f9.png",
     "meme/385e08b1b77174c15c9cc496955cac21ca41bb6e.png",
     "meme/38c0e87e50cde7bd70673eb097efdd08c264d13d.png",
     "meme/3c7f69fd9bdda4b2bcc961eb7d9ac42fb7caddf1.png",
