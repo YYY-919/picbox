@@ -40,7 +40,7 @@ cat > "text/index.html" <<EOF
         <h5 id="description"></h5>
         <article id="view">
             <github-md>
-> _Text memes description._
+@TDESC@
 EOF
 
 for doc in art/*.md
