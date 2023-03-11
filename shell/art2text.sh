@@ -13,14 +13,14 @@ do
     echo Converting "'${doc:4}'" ...
     cat > "text/${doc:4:-3}.html" <<EOF
 <!DOCTYPE html>
-<html lang="@PAGELANG@">
+<html lang="zh">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="@DESC@">
+    <meta name="description" content="♂DO YOU LIKE VAN YOU SEE ?♂">
     <link rel="icon" href="/static/favicon.ico">
-    <title>@TITLE@ | @DESC@</title>
+    <title>ArticleBox | HAVE A LOOK</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.0/css/pico.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <style>
@@ -31,7 +31,7 @@ do
 </head>
 <body>
     <main class="container">
-        <h1>@TITLE@ | <a href="/text">@T_MEMETXT@</a></h1>
+        <h1>ArticleBox | <a href="/text">图片</a></h1>
         <article id="view">
             <github-md>
 EOF
@@ -40,7 +40,7 @@ EOF
             </github-md>
         </article>
         <footer id="footer">
-            <p>@FOOTER@</p>
+            <p>————————————没了————————————</p>
         </footer>
     </main>
 </body>
