@@ -86,6 +86,7 @@ export default {
     "meme/f8d2eaa3a4d621839bd9af54f21c3d791f4712fd.png",
     "meme/fdd82a9f75681f2adb7c151e0e397b664465f328.png",
     "meme/ffe075ac3c3973ed65a22ece7d9281fe02ffb0f1.png",
+    "meme/miku大受震撼.webp",
     "meme/有意思.webp",
     "meme/法国军礼.webp",
     "meme/照坤镜.webp",
