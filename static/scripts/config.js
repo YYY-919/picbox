@@ -92,6 +92,7 @@ export default {
     "meme/法国军礼.webp",
     "meme/滑稽_这太可怕了.webp",
     "meme/照坤镜.webp",
+    "meme/真他妈坐得住啊你.webp",
     "meme/评价是6.webp",
     "meme/这就是骚鸡的下场.webp",
     "meme/香贝凤蚝食不食.webp",
