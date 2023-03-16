@@ -88,6 +88,7 @@ export default {
     "meme/ffe075ac3c3973ed65a22ece7d9281fe02ffb0f1.png",
     "meme/miku大受震撼.webp",
     "meme/一场关乎勇气，关乎自信的战斗.webp",
+    "meme/你没读readme.webp",
     "meme/有意思.webp",
     "meme/法国军礼.webp",
     "meme/滑稽_这太可怕了.webp",
