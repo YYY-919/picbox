@@ -53,6 +53,7 @@ export default {
     "meme/9ac6578c4def3e3cb14650c80e74a59a7273834e.png",
     "meme/9c81f1ab95bcbbcfdd88c48c4c737d7125a99475.png",
     "meme/9ce7f1a1b16acb67907f6805d1827017156574952.png",
+    "meme/Linux如何清理垃圾？.png",
     "meme/a3591c0e2f92e1bbd7bd55a2930071a745f74586.png",
     "meme/a4495152471f1aa419281bba4ac6d6b3d9f0fdfe.png",
     "meme/a97d5b541a483122697c5a46496bd4293eae75c5.png",
