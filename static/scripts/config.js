@@ -16,6 +16,7 @@ export default {
     "meme/2a68ff31d2eac1a22d92e5d96869765f054c5d69.png",
     "meme/385e08b1b77174c15c9cc496955cac21ca41bb6e.png",
     "meme/38c0e87e50cde7bd70673eb097efdd08c264d13d.png",
+    "meme/3G现已普及.png",
     "meme/3c7f69fd9bdda4b2bcc961eb7d9ac42fb7caddf1.png",
     "meme/3ddb1861ebea150e31b85c2fc0c014d5e79ad136.png",
     "meme/401456149246759fafd8f8ee8467da22501e6982.png",
