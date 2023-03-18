@@ -102,6 +102,7 @@ export default {
     "meme/照坤镜.webp",
     "meme/真他妈坐得住啊你.webp",
     "meme/磁头梆盘片.png",
+    "meme/绕路解决问题.png",
     "meme/论找不到键盘怎么按键盘.webp",
     "meme/评价是6.webp",
     "meme/这就是骚鸡的下场.webp",
