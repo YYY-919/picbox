@@ -90,6 +90,7 @@ export default {
     "meme/miku大受震撼.webp",
     "meme/p103288110.png",
     "meme/一场关乎勇气，关乎自信的战斗.webp",
+    "meme/不教又不死.png",
     "meme/你没读readme.webp",
     "meme/如何截图.png",
     "meme/妈妈生的.png",
