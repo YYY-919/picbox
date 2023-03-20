@@ -95,6 +95,7 @@ export default {
     "meme/不教又不死.png",
     "meme/你没读readme.webp",
     "meme/做梦卡.png",
+    "meme/双标O.png",
     "meme/如何截图.png",
     "meme/妈妈生的.png",
     "meme/有意思.webp",
