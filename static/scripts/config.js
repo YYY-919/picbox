@@ -117,6 +117,7 @@ export default {
     "meme/一场关乎勇气，关乎自信的战斗.webp",
     "meme/不忘初心.webp",
     "meme/不教又不死.png",
+    "meme/不看群公告.png",
     "meme/你没读readme.webp",
     "meme/做梦卡.png",
     "meme/双标O.png",
