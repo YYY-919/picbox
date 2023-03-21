@@ -118,6 +118,7 @@ export default {
     "meme/不忘初心.webp",
     "meme/不教又不死.png",
     "meme/不看群公告.png",
+    "meme/以前应聘与现在应聘.png",
     "meme/你没读readme.webp",
     "meme/做梦卡.png",
     "meme/双标O.png",
