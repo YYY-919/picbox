@@ -128,6 +128,7 @@ export default {
     "meme/法国军礼.webp",
     "meme/滑稽_这太可怕了.webp",
     "meme/照坤镜.webp",
+    "meme/猫脑过载.png",
     "meme/真他妈坐得住啊你.webp",
     "meme/磁头梆盘片.png",
     "meme/绕路解决问题.png",
