@@ -124,6 +124,7 @@ export default {
     "meme/双标O.png",
     "meme/如何截图.png",
     "meme/妈妈生的.png",
+    "meme/宅男是宅不是傻.png",
     "meme/有意思.webp",
     "meme/法国军礼.webp",
     "meme/滑稽_这太可怕了.webp",
