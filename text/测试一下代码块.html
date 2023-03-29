@@ -1,36 +1,15 @@
-<!DOCTYPE html>
-<html lang="zh">
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="♂DO YOU LIKE VAN YOU SEE ?♂">
-    <link rel="icon" href="/static/favicon.ico">
-    <title>ArticleBox | HAVE A LOOK</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.0/css/pico.min.css">
-    <link rel="stylesheet" href="/static/style.css">
-    <style>
-        #view {
-            text-align: left;
-        }
-    </style>
+  <meta charset="utf-8"/>
+  <title>Marked in the browser</title>
 </head>
 <body>
-    <main class="container">
-        <h1>ArticleBox | <a href="/text">图片</a></h1>
-        <article id="view">
-            <github-md>
-# 测试一下代码块
-```python
-@word.handle()
-async def _():
-    await word.finish(Message("嗯嗯嗯"))
-```            </github-md>
-        </article>
-        <footer id="footer">
-            <p>————————————没了————————————</p>
-        </footer>
-    </main>
+  <div id="content"></div>
+  <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
+  <script>
+    document.getElementById('content').innerHTML =
+      marked.parse('# Marked in the browser\n\nRendered by **marked**.');
+  </script>
 </body>
-<script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script> 
 </html>
