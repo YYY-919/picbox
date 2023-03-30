@@ -9,7 +9,16 @@
   <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
   <script>
     document.getElementById('content').innerHTML =
-      marked.parse('# Marked in the browser\n\nRendered by **marked**.');
+      marked.parse('```python
+from nonebot import on_keyword
+from nonebot.adapters.onebot.v11 import Message
+
+word=on_keyword({"你是谁"})
+
+@word.handle()
+async def _():
+    await word.finish(Message("我是bot!"))
+```');
   </script>
 </body>
 </html>
