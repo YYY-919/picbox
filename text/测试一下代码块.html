@@ -7,7 +7,16 @@
 <body>
   <div id="content"></div>
   <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
+  <link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">
+  <script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   <script>
+
+    marked.setOptions({
+        highlight: function (code) {
+        return hljs.highlightAuto(code).value;
+      }
+    });
     document.getElementById('content').innerHTML =
       marked.parse('```python\nfrom nonebot import on_keyword\nfrom nonebot.adapters.onebot.v11 import Message\n\nword=on_keyword({"你是谁"})\n\n@word.handle()\nasync def _():\n    await word.finish(Message("我是bot!"))\n```');
   </script>
