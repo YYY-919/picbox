@@ -11,7 +11,7 @@ direrr() {
 for doc in art/*.md
 do
     echo Converting "'${doc:4}'" ...
-    new_doc=${doc//$'\n'/'\n'}
+    new_doc=$(echo $"doc" | sed 's/$/\\n/' | tr -d '\n')
     cat > "text/${doc:4:-3}.html" <<EOF
 <!DOCTYPE html>
 <html lang="zh">
