@@ -17,20 +17,19 @@
 </head>
 <body>
     <main class="container">
-        <h1>ArticleBox | <a href="/">图片</a></h1>
-        <h5 id="description"></h5>
+        <h1>ArticleBox | <a href="/text">图片</a></h1>
         <article id="view">
-            <github-md>
-# 一些文本
-- [凌华插画收藏](./凌华插画收藏.html)
-- [又又一个](./又又一个.html)
-- [测试一下代码块](./测试一下代码块.html)
-            </github-md>
+        <div id="content"></div>
+        <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
+  <script>
+    document.getElementById('content').innerHTML =
+      marked.parse('EOF
+    cat "art/又又一个.md" >> "text/又又一个.html"
+    cat >> "text/又又一个.html" <<EOF'); </script>
         </article>
         <footer id="footer">
             <p>————————————没了————————————</p>
         </footer>
     </main>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
 </html>
