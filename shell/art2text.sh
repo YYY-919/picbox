@@ -36,11 +36,14 @@ do
         <article id="view">
         <div id="content"></div>
         <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
-  <script>
-    document.getElementById('content').innerHTML =
-      marked.parse('EOF
+        <script>
+          document.getElementById('content').innerHTML =
+            marked.parse('
+EOF
     cat "$new_doc" >> "text/${doc:4:-3}.html"
-    cat >> "text/${doc:4:-3}.html" <<EOF'); </script>
+    cat >> "text/${doc:4:-3}.html" <<EOF
+             ');
+        </script>
         </article>
         <footer id="footer">
             <p>————————————没了————————————</p>
