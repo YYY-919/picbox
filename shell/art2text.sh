@@ -36,7 +36,15 @@ do
         <h1>ArticleBox | <a href="/text">图片</a></h1>
         <div id="content"></div>
         <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
+        <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/8.0/styles/lioshi.min.css">
+        <script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
         <script>
+          marked.setOptions({
+              highlight: function (code) {
+              return hljs.highlightAuto(code).value;
+            }
+          });
           document.getElementById('content').innerHTML =
             marked.parse('$new_doc');
         </script>
