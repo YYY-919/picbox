@@ -19,18 +19,17 @@
     <main class="container">
         <h1>ArticleBox | <a href="/text">图片</a></h1>
         <article id="view">
-            <github-md>
-# 测试一下代码块
-```python
-@word.handle()
-async def _():
-    await word.finish(Message("嗯嗯嗯"))
-```            </github-md>
+        <div id="content"></div>
+        <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
+  <script>
+    document.getElementById('content').innerHTML =
+      marked.parse('EOF
+    cat "art/测试一下代码块.md" >> "text/测试一下代码块.html"
+    cat >> "text/测试一下代码块.html" <<EOF'); </script>
         </article>
         <footer id="footer">
             <p>————————————没了————————————</p>
         </footer>
     </main>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
 </html>

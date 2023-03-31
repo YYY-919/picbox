@@ -19,17 +19,17 @@
     <main class="container">
         <h1>ArticleBox | <a href="/text">图片</a></h1>
         <article id="view">
-            <github-md>
-# 第二个代码块测试
-```python
-from nonebot import on_keyword
-from nonebot.adapters.onebot.v11 import Message
-```            </github-md>
+        <div id="content"></div>
+        <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
+  <script>
+    document.getElementById('content').innerHTML =
+      marked.parse('EOF
+    cat "art/又一个代码块测试.md" >> "text/又一个代码块测试.html"
+    cat >> "text/又一个代码块测试.html" <<EOF'); </script>
         </article>
         <footer id="footer">
             <p>————————————没了————————————</p>
         </footer>
     </main>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag-GitHub.js"></script> 
 </html>
