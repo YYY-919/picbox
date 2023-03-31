@@ -21,11 +21,15 @@
         <article id="view">
         <div id="content"></div>
         <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
-  <script>
-    document.getElementById('content').innerHTML =
-      marked.parse('EOF
-    cat "art/又又一个.md" >> "text/又又一个.html"
-    cat >> "text/又又一个.html" <<EOF'); </script>
+        <script>
+          document.getElementById('content').innerHTML =
+            marked.parse('
+# 又又一个
+```python
+from nonebot import on_keyword
+from nonebot.adapters.onebot.v11 import Message
+```             ');
+        </script>
         </article>
         <footer id="footer">
             <p>————————————没了————————————</p>

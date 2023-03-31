@@ -21,11 +21,16 @@
         <article id="view">
         <div id="content"></div>
         <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
-  <script>
-    document.getElementById('content').innerHTML =
-      marked.parse('EOF
-    cat "art/测试一下代码块.md" >> "text/测试一下代码块.html"
-    cat >> "text/测试一下代码块.html" <<EOF'); </script>
+        <script>
+          document.getElementById('content').innerHTML =
+            marked.parse('
+# 测试一下代码块
+```python
+@word.handle()
+async def _():
+    await word.finish(Message("嗯嗯嗯"))
+```             ');
+        </script>
         </article>
         <footer id="footer">
             <p>————————————没了————————————</p>
