@@ -39,7 +39,7 @@ do
         <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
         <script>
           document.getElementById('content').innerHTML =
-            marked.parse('"$new_doc"');
+            marked.parse('$new_doc');
 EOF
     cat >> "text/${doc:4:-3}.html" <<EOF
         </script>
