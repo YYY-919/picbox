@@ -12,7 +12,7 @@ for doc in art/*.md
 do
     echo Converting "'${doc:4}'" ...
     raw_doc=$(cat $doc)
-    new_doc=${doc_raw//$'\n'/'\n'}
+    new_doc=${raw_doc//$'\n'/'\n'}
     cat > "text/${doc:4:-3}.html" <<EOF
 <!DOCTYPE html>
 <html lang="zh">
