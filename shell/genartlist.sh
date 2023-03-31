@@ -55,7 +55,7 @@ cat >> "text/index.html" <<EOF
             </github-md>
         </article>
         <footer id="footer">
-            <p>————————————没了————————————</p>
+            <p>————没了————</p>
         </footer>
     </main>
 </body>
