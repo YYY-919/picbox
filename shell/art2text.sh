@@ -36,7 +36,7 @@ do
         <h1>ArticleBox | <a href="/text">图片</a></h1>
         <div id="content"></div>
         <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
-        <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/8.0/styles/lioshi.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/lioshi.min.css">
         <script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <script>
