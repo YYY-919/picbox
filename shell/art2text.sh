@@ -11,6 +11,7 @@ direrr() {
 for doc in art/*.md
 do
     echo Converting "'${doc:4}'" ...
+    new_doc=${doc//$'\n'/'\n'}
     cat > "text/${doc:4:-3}.html" <<EOF
 <!DOCTYPE html>
 <html lang="zh">
@@ -33,18 +34,19 @@ do
     <main class="container">
         <h1>ArticleBox | <a href="/text">图片</a></h1>
         <article id="view">
-            <github-md>
-EOF
-    cat "$doc" >> "text/${doc:4:-3}.html"
-    cat >> "text/${doc:4:-3}.html" <<EOF
-            </github-md>
+        <div id="content"></div>
+        <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
+  <script>
+    document.getElementById('content').innerHTML =
+      marked.parse('EOF
+    cat "$new_doc" >> "text/${doc:4:-3}.html"
+    cat >> "text/${doc:4:-3}.html" <<EOF'); </script>
         </article>
         <footer id="footer">
             <p>————————————没了————————————</p>
         </footer>
     </main>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
 </html>
 EOF
 done
