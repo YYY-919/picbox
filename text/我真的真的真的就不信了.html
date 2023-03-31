@@ -17,25 +17,18 @@
 </head>
 <body>
     <main class="container">
-        <h1>ArticleBox | <a href="/">图片</a></h1>
-        <h5 id="description"></h5>
+        <h1>ArticleBox | <a href="/text">图片</a></h1>
         <article id="view">
-            <github-md>
-# 一些文本
-- [凌华插画收藏](./凌华插画收藏.html)
-- [刷新](./刷新.html)
-- [又又一个](./又又一个.html)
-- [我就不信](./我就不信.html)
-- [我真的真的真的就不信了](./我真的真的真的就不信了.html)
-- [测!](./测!.html)
-- [测完就删](./测完就删.html)
-- [测试一下代码块](./测试一下代码块.html)
-            </github-md>
+        <div id="content"></div>
+        <script src="https://cdn.bootcdn.net/ajax/libs/marked/4.3.0/marked.min.js"></script>
+        <script>
+          document.getElementById('content').innerHTML =
+            marked.parse('"# 我真的真的真的就不信了\naaaaaaaaaaaaaaaaaaaaaaaaa"');
+        </script>
         </article>
         <footer id="footer">
             <p>————————————没了————————————</p>
         </footer>
     </main>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag.js"></script> 
 </html>
