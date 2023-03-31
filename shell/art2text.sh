@@ -49,7 +49,7 @@ do
             marked.parse('$new_doc');
         </script>
         <footer id="footer">
-            <p>———没了———</p>
+            <p>————没了————</p>
         </footer>
     </main>
 </body>
