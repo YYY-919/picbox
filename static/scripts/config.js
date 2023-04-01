@@ -71,6 +71,7 @@ export default {
     "meme/9c81f1ab95bcbbcfdd88c48c4c737d7125a99475.png",
     "meme/9ca220d8a2c8503c894cc38dc6bcb920156574952.jpg",
     "meme/9ce7f1a1b16acb67907f6805d1827017156574952.png",
+    "meme/AI跑出来的.png",
     "meme/Linux如何清理垃圾？.png",
     "meme/a117680c2bfc50a48470f020d21701cb156574952.jpg",
     "meme/a3591c0e2f92e1bbd7bd55a2930071a745f74586.png",
