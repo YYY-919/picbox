@@ -130,6 +130,7 @@ export default {
     "meme/妈妈生的.png",
     "meme/宅男是宅不是傻.png",
     "meme/对不起，做不到.png",
+    "meme/惊！.png",
     "meme/有意思.webp",
     "meme/没有安装电脑.png",
     "meme/法国军礼.webp",
